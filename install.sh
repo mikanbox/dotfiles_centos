@@ -2,7 +2,11 @@
 # install 
 sudo yum install -y git
 sudo yum install source-highlight -y
-sudo yum install ccze -y
+
+# install from epel
+sudo amazon-linux-extras install epel -y
+sudo yum --enablerepo=epel install ccze -y
+
 
 # set git editor to vim
 git config --global core.editor 'vim -c "set fenc=utf-8"'
