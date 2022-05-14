@@ -2,7 +2,7 @@
 # install 
 sudo yum install -y git
 sudo yum install source-highlight -y
-sudo yum install ccza -y
+sudo yum install ccze -y
 
 # set git editor to vim
 git config --global core.editor 'vim -c "set fenc=utf-8"'
